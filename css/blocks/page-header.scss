@@ -43,6 +43,8 @@ header {
   display: inline-block;
   padding: 3px;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .top-menu__button_burger-menu > div:nth-child(1) {
