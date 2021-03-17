@@ -1,9 +1,7 @@
 .error {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
+    margin: 0px;
   &__title {
     margin: 0 auto 42px;
   }
@@ -13,4 +11,3 @@
     line-height: 30px;
   }
 }
-
