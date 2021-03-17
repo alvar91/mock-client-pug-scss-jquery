@@ -17,28 +17,46 @@
 
 .social__link {
   display: block;
-  background-image: url("images/sprite.png");
+  // background-image: url("images/sprite.png");
+  cursor: pointer;
+  transition-duration: 10ms;
 
   &--vk {
     width: 35px;
     height: 28px;
+    background: url("images/vk-sprites.png") -10px -10px;
+    &:hover {
+      background-position: -65px -10px;
+    }
   }
 
   &--fb {
     width: 15px;
     height: 28px;
     background-position: -66px 0;
+    background: url("images/fb-sprites.png") -10px -10px;
+    &:hover {
+      background-position: -46px -10px;
+    }
   }
 
   &--tw {
     width: 29px;
     height: 28px;
     background-position: -111px 0;
+    background: url("images/tw-sprites.png") -10px -10px;
+    &:hover {
+      background-position: -59px -10px;
+    }
   }
 
   &--inst {
     width: 25px;
     height: 29px;
     background-position: -169px 0;
+    background: url("images/inst-sprites.png") -55px -10px;
+    &:hover {
+      background-position: -10px -10px;
+    }
   }
 }
