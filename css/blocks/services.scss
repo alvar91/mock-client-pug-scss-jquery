@@ -189,51 +189,6 @@
   }
 }
 
-// @media (min-width: 1370px) {
-//   .services__list {
-//     width: 1160px;
-//     flex-wrap: nowrap;
-//     flex-direction: row;
-//   }
-
-//   .services__item {
-//     margin: 0 0 77px;
-//     padding: 94px 35px 0;
-//     width: 50%;
-//     min-height: 153.2px;
-//     @include font(20px, 400);
-//     line-height: 30px;
-
-//     &--markup {
-//       padding-left: 33px;
-//       background-position: top center;
-//       background-size: 80px 80px;
-//     }
-
-//     &--adaptive {
-//       padding-left: 22px;
-//       background-position: top left 150px;
-//       background-size: 79px 79px;
-//     }
-
-//     &--frontend {
-//       background-position: top center;
-//       background-size: 74px 79px;
-//     }
-
-//     &--correction {
-//       padding-left: 20px;
-//       background-position: top left 153px;
-//       background-size: 74px 79px;
-//     }
-
-//     &:last-child,
-//     &:nth-last-child(2) {
-//       margin-bottom: 0;
-//     }
-//   }
-// }
-
 @media (min-width: 1330px) {
   .services {
     margin-top: 78px;

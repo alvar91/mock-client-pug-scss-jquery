@@ -4,7 +4,7 @@
   color: $font-1;
 }
 
-@media (max-width: 1023px) and (min-width: 950px) {
+@media (max-width: 1329px) and (min-width: 950px) {
   .section-heading {
     @include font(54px, 700);
     text-align: center;
