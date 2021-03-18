@@ -119,7 +119,7 @@
   }
 
   .slider__list {
-    margin-bottom: 96px;
+    margin-bottom: 93px;
   }
 
   .slider__item {
@@ -154,7 +154,7 @@
     }
 
     &--left {
-      left: -30px;
+      left: -21px;
       border: none;
       &:hover {
         box-shadow: none;
@@ -162,7 +162,7 @@
     }
 
     &--right {
-      right: -30px;
+      right: -21px;
       transform: rotate(180deg);
       border: none;
       &:hover {

@@ -85,7 +85,7 @@
 
 @media (min-width: 1330px) {
   .page-footer__main {
-    padding: 78px 0 80px;
+    padding: 72px 0 80px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -107,11 +107,12 @@
     width: auto;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 18px;
+    margin-right: 21px;
+    margin-left: 220px;
   }
 
   .page-footer__button {
-    margin-bottom: 31px;
+    margin-bottom: 35px;
   }
 
   .page-footer__social {

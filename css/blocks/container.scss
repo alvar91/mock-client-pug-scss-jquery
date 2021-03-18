@@ -16,6 +16,13 @@
     width: 1170px;
     margin: 0 auto;
   }
+  
+  &--slider {
+    @media (min-width: 1370px) {
+      width: 1190px;
+      margin: 0 auto;
+    }
+  }
 }
 
 .fixed-container {
