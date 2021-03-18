@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var menuList = $(".top-menu__list_menu");
+  const menuList = $(".header-menu__list");
   $(menuList).click(function(){
       if(menuList.css("height") != "0px") {
           menuList.removeClass("show-mobile-menu");
