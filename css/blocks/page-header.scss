@@ -181,23 +181,6 @@
   }
 }
 
-.fixed-container {
-  @media (min-width: 600px) and (max-width: 1023px) {
-    max-width: 95%;
-    margin: 0px auto;
-  }
-
-  @media (min-width: 1024px) and (max-width: 1330px) {
-    max-width: 95%;
-    margin: 0px auto;
-  }
-
-  @media (min-width: 1330px) {
-    max-width: 1200px;
-    margin: 0px auto;
-  }
-}
-
 .header-list {
   &__link {
     color: #333;

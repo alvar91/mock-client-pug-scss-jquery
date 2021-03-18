@@ -1,24 +1,24 @@
 section.about
-        div(class="flat-elements-top" aria-hidden="true")
-            span
+        div(class="flat-elements" aria-hidden="true")
+            span.flat-elements__element.flat-elements__element--first
                 | {&nbsp;}
-            span
+            span.flat-elements__element.flat-elements__element--second
                 | #
-            span
+            span.flat-elements__element.flat-elements__element--third
                 | &lt;/&gt;
-            span
+            span.flat-elements__element.flat-elements__element--fourth
                 | &lt;div&gt;
-            span
+            span.flat-elements__element.flat-elements__element--fifth
                 | &lt;div&gt;
-        div(class="about_content fixed-container")
+        div(class="about__content fixed-container")
             h1.about__text.title
                 | Дмитрий Киселев
-            span.about__span_description-title
+            span.about__description-title
                 | Frontend-разработчик и веб-верстальщик
-            a(href="#services" class="about__button_solid")
+            a(href="#services" class="about__button")
                 | Узнать больше
-        div.about_background
+        div.about__background
             +balloon()
-            picture
+            picture.background__picture
                 source(srcset="./images/shutterstock_574398823.png 1x, ./images/shutterstock_574398823.png" media="(min-width: 600px)")
-                img(src="./images/shutterstock_574398823-m.png" srcset="./images/shutterstock_574398823-m.png 2x" alt="person")
+                img(class="background__img" src="./images/shutterstock_574398823-m.png" srcset="./images/shutterstock_574398823-m.png 2x" alt="person")
