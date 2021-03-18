@@ -1,0 +1,24 @@
+section.about
+        div(class="flat-elements-top" aria-hidden="true")
+            span
+                | {&nbsp;}
+            span
+                | #
+            span
+                | &lt;/&gt;
+            span
+                | &lt;div&gt;
+            span
+                | &lt;div&gt;
+        div(class="about_content fixed-container")
+            h1.about__text.title
+                | Дмитрий Киселев
+            span.about__span_description-title
+                | Frontend-разработчик и веб-верстальщик
+            a(href="#services" class="about__button_solid")
+                | Узнать больше
+        div.about_background
+            +balloon()
+            picture
+                source(srcset="./images/shutterstock_574398823.png 1x, ./images/shutterstock_574398823.png" media="(min-width: 600px)")
+                img(src="./images/shutterstock_574398823-m.png" srcset="./images/shutterstock_574398823-m.png 2x" alt="person")
