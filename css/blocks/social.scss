@@ -18,14 +18,17 @@
 .social__link {
   display: block;
   cursor: pointer;
-  transition-duration: 10ms;
 
   &--vk {
     width: 35px;
     height: 28px;
     background: url("images/vk-sprites.png") -10px -10px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
     &:hover {
       background-position: -65px -10px;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
     }
   }
 
@@ -34,8 +37,12 @@
     height: 28px;
     background-position: -66px 0;
     background: url("images/fb-sprites.png") -10px -10px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
     &:hover {
       background-position: -46px -10px;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
     }
   }
 
@@ -44,8 +51,12 @@
     height: 28px;
     background-position: -111px 0;
     background: url("images/tw-sprites.png") -10px -10px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
     &:hover {
       background-position: -59px -10px;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
     }
   }
 
@@ -54,8 +65,12 @@
     height: 29px;
     background-position: -169px 0;
     background: url("images/inst-sprites.png") -55px -10px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
     &:hover {
       background-position: -10px -10px;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
     }
   }
 }

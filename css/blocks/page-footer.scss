@@ -6,7 +6,7 @@
 }
 
 .page-footer__nav {
-  margin-bottom: 42px;
+  margin-bottom: 37px;
 }
 
 .page-footer__contacts {
@@ -50,7 +50,7 @@
 
 @media (max-width: 1023px) and (min-width: 950px) {
   .page-footer__main {
-    padding: 96px 0 80px;
+    padding: 96px 0 77px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -75,7 +75,8 @@
   }
 
   .page-footer__button {
-    margin-bottom: 31px;
+    margin-bottom: 38px;
+    margin-right: 10px;
   }
 
   .page-footer__social {

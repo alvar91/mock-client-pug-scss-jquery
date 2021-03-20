@@ -43,7 +43,7 @@
         &__text {
             font-family: "Roboto", sans-serif;
             font-weight: 900;
-            font-size: 32px;
+            font-size: 30px;
             color: #333;
         }
 
@@ -59,7 +59,7 @@
 
         &__content {
             padding-left: 0;
-            padding-top: 390px;
+            padding-top: 400px;
             text-align: center;
         }
 
@@ -102,7 +102,7 @@
         }
 
         &__description-title {
-            margin: 18px 0 33px 0;
+            margin: 26px 0 28px 0;
             font-size: 25px;
         }
 
@@ -165,12 +165,19 @@
         &__button {
             font-size: 18px;
             padding: 18px 72px;
+            transition-duration: 0.2s;
+            transition-timing-function: ease;
+            &:hover {
+                outline: 2px solid $btn-red;
+                transition-duration: 0.2s;
+                transition-timing-function: ease;
+            }
         }
     }
 
     @media (min-width: 1330px) {
         &__description-title {
-            margin: 21px 0 32px 0;
+            margin: 21px 0 27px 0;
             font-size: 25px;
         }
 
@@ -187,7 +194,7 @@
         &__text {
             font-family: "Roboto", sans-serif;
             font-weight: 900;
-            font-size: 75px;
+            font-size: 80px;
             margin: 0;
             color: #333;
         }

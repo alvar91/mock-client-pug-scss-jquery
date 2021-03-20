@@ -12,7 +12,8 @@
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to top, #f26522, #fa0891 99%);
   background-clip: text;
-
+  width: 20px;
+  
   &--phone {
     color: transparent;
     transform: rotate(90deg);
