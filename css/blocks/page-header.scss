@@ -264,6 +264,7 @@
 
 .button-burger-menu {
   &__first-line {
+    display: block;
     margin: 3px 10px;
     width: 45px;
     height: 5px;
@@ -271,6 +272,7 @@
   }
 
   &__second-line {
+    display: block;
     margin: 8px 10px;
     width: 45px;
     height: 5px;
@@ -278,6 +280,7 @@
   }
 
   &__third-line {
+    display: block;
     margin: 8px 10px;
     width: 45px;
     height: 5px;
